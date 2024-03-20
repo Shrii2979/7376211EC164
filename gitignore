@@ -1,0 +1,58 @@
+import React from "react";
+import Display from "./Display";
+import Keypad from "./Keypad";
+
+class Calculator extends React.Component {
+  render() {
+    return (
+      <div className="calculator">
+        <Display />
+        <Keypad />
+      </div>
+    );
+  }
+}
+
+export default Calculator;
+
+import React from "react";
+
+class Display extends React.Component {
+  render() {
+    return <input type="text" className="display" />;
+  }
+}
+
+export default Display;
+
+import React from "react";
+
+class Keypad extends React.Component {
+  render() {
+    return (
+      <div className="keypad">
+        {/* keypad buttons */}
+      </div>
+    );
+  }
+}
+
+export default Keypad;
+
+import React from "react";
+
+class Keypad extends React.Component {
+  render() {
+    return (
+      <div className="keypad">
+        {/* keypad buttons */}
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        {/* and so on */}
+      </div>
+    );
+  }
+}
+
+export default Keypad;
