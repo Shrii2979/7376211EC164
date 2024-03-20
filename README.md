@@ -1,1 +1,1 @@
-Created a average Microservice that exposes REST API
+Created a Average  Cacluclator HTTP Microservice that exposes REST API
